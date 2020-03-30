@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 1 Lab</title>
+  <style>
+    body {
+      font-family:Arial, Helvetica, sans-serif
+    }
+    h1 {
+      color: blue;
+      background-color: yellow;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>All About You!</header>
+  <main>
+    <h1>Class 1 Lab</h1>
+    <!-- Need 4 JavaScript prompt questions -->
+    <!-- User's response should be stored in a separate variable -->
+    <!-- alert the user after each response, including all previous responses -->
+    <!-- put a console log after each response -->
+    <p style = "color:grey; background-color: pink;">Let's find out a little about you.</p>
+    <p style = "text-indent: 50px;color:purple; background-color: yellow;">What's your name?</p>
+    <p style = "text-indent: 50px;color:red; background-color: blue; border-style:dashed;">What's your favorite ice cream flavor?</p>
+    <p style = "text-indent: 50px;color:blue; background-color: orange; border-style:solid; border-color: red;">What's your favorite movie?</p>
+    <p style = "text-indent: 50px;color:orange; background-color: grey; border-style: groove;">What's your favorite day of the week?</p>
+
+  <script>
+    // lets ask the user for their name
+    // lets ask what their favorite color is
+    // lets ask what their favorite flavor of ice cream is
+    // lets ask what their favorite movie is
+    var yourName = prompt("What's your name?");
+    console.log("yourName : " + yourName);
+    alert("Hi, " + yourName + "!");
+
+    var favIceCream = prompt("What's your favorite ice cream flavor?");
+    console.log("favIceCream : " + favIceCream);
+    alert(favIceCream + " ice cream sounds yummy, " + yourName + ".");
+
+    var favMovie = prompt("What's your favorite movie?");
+    console.log("favMovie : " + favMovie);
+    alert("Eating " + favIceCream + " while watching " + favMovie + " sounds like fun, " + yourName + ".");
+
+    var favDay = prompt("What's your favorite day of the week?");
+    console.log("favDay : " + favDay);
+    alert(yourName + ", I'll bet you really like watching " + favMovie + " while eating " + favIceCream + " ice cream on " + favDay + ".");
+
+  </script>
+
+  </main>
+
+  <footer>Thanks for playing.</footer>
+</body>
+</html>
